@@ -1,0 +1,6 @@
+discord
+python-dotenv
+docker
+yt_dlp
+asyncio
+PyNaCl
