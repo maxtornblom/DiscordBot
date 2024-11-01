@@ -180,7 +180,6 @@ def setup(client: discord.Client):
         channel_id = interaction.guild.voice_client.channel.id
         if channel_id in queues and queues[channel_id]:
             embed = discord.Embed(title="Current Queue", color=discord.Color.purple())
-            embed.set_thumbnail(url=interaction.client.user.avatar.url)  # Add bot's avatar as thumbnail
 
             for i, song in enumerate(queues[channel_id], start=1):
                 url, title, duration, thumbnail, user, webpage_url = song
