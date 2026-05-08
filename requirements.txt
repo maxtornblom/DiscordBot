@@ -1,6 +1,7 @@
-discord
+discord.py[voice]
+yt-dlp
+beautifulsoup4
+requests
 python-dotenv
-docker
-yt_dlp
-asyncio
+davey
 PyNaCl
